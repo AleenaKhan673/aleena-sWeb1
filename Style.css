@@ -146,7 +146,6 @@ topic{
 
 .logo img{
   display: block;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: auto;
-
 }
