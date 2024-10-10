@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/aboutme.css">
+</head>
+
+<main>
+    <!---contact me-->
+    <section ID="contactme">
+        <form>
+            <h2>Contact Me</h2>
+            <label for="fname">Your name:</label>
+            <br><br>
+            <input type="text" name="name" size="50" placeholder="Enter the complete name below"
+                required><br><br><br><br><br>
+            <label for="email">Your email:</label><br>
+            <br><br>
+            <input type="email" name="email" size="50" placeholder="Enter email below" required><br><br><br><br>
+            <label for="phoneNum">Phone Number:</label><br><br>
+            <small>Format: 657-444-1955</small><br>
+            <br>
+            <input type="PhoneNum" name="Phone Number" size="50" placeholder="Enter phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
+            <p>
+                <label for="feedback">Comments : </label><br>
+                <textarea name="feedback" cols="50" rows="6"></textarea>
+            </p>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit" />
+        </form><br>
+    </section>
+</main>

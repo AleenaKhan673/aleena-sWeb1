@@ -1,0 +1,4 @@
+.book-images{
+    display: flex;
+    justify-content: space-evenly;
+  }
