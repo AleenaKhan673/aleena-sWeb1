@@ -148,4 +148,10 @@ topic{
   display: block;
   margin-left: 10px;
   margin-right: auto;
+  
+}
+
+.book-images{
+  display: flex;
+  justify-content: space-evenly;
 }
