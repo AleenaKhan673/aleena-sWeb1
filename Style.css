@@ -64,6 +64,7 @@ topic{
   body > * {
     background-color: beige;
     padding: 1%;
+    width: 100%
   }
   
   main, header, nav, article, aside, footer, section {
