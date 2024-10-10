@@ -8,11 +8,11 @@ html, body {
   
   html {
     font-size: 10px;
-    background-color: #f0bde8;
+    background-color: #d7bdf0;
   }
   
   body {
-    width: 70%;
+    width: 100%;
     min-width: 800px;
     margin: 0 auto;
   }
@@ -63,6 +63,7 @@ topic{
   
   body > * {
     background-color: beige;
+    background-image: url(Visuals/flowers.jpg);
     padding: 1%;
     width: 100%
   }
