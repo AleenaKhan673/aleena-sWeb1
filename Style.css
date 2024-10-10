@@ -68,7 +68,7 @@ topic{
   
   main, header, nav, article, aside, footer, section {
     background-color: rgba(238, 147, 247, 0.644);
-    padding: 1%;
+    padding:1%
   }
   
   h1 {

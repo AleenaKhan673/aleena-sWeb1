@@ -101,8 +101,10 @@
                 <label for="email">Your email:</label><br>
                 <br><br>
                 <input type="email" name="email" size="50" placeholder="Enter email below" required><br><br><br><br>
-                <label for="phoneNum">Phone Number:</label><br><br><br>
-                <input type="PhoneNum" name="Phone Number" size="50" placeholder="Enter your number" required></label>
+                <label for="phoneNum">Phone Number:</label><br><br>
+                <small>Format: 657-444-1955</small><br>
+                <br>
+                <input type="PhoneNum" name="Phone Number" size="50" placeholder="Enter phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
                 <p>
                     <label for="feedback">Comments : </label><br>
                     <textarea name="feedback" cols="50" rows="6"></textarea>
