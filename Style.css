@@ -21,18 +21,19 @@ html, body {
   
   h1, h2, h3 {
     font-family: 'Cinzel Decorative', cursive;
-    color: #2a2a2a;
+    color: #423c3c;
   }
   
   p, input, li {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #2a2a2a;
+    color: #817f7f;
   }
   
   h1 {
     font-size: 4rem;
     text-align: center;
-    text-shadow: 2px 2px 10px black;
+    text-shadow: 2px 2px 10px rgb(170, 106, 143);
+
   }
   
   h2 {
@@ -56,21 +57,22 @@ topic{
   /* || header layout */
   
   header {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     flex-flow: row wrap;
+    border-color: #ec88cb;
   }
   
   body > * {
     background-color: beige;
     background-image: url(Visuals/flowers.jpg);
-    padding: 1%;
+    padding: 0%;
     width: 100%
   }
   
   main, header, nav, article, aside, footer, section {
-    background-color: rgba(238, 147, 247, 0.644);
-    padding:1%
+    background-color: rgba(241, 155, 220, 0.644);
+    padding:0%
   }
   
   h1 {
@@ -79,9 +81,8 @@ topic{
   }
   
   header img {
-    display: block;
-    height: 60px;
-    padding-top: 20.15px;
+    max-width: 59px;
+    border-radius: 50%;
   }
   
   nav {
@@ -97,6 +98,7 @@ topic{
     display: flex;
     align-items: center;
   }
+  
   
   nav li {
     display: inline;
@@ -143,13 +145,15 @@ topic{
   }
   
   footer {
-    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(#ec88cb, #c5c6d8);
+    font-size: 1.69em;
+    width:100%;
   }
 
-.logo img{
-  display: block;
-  margin-left: 10px;
-  margin-right: auto;
-  
-}
-
+  .logo img{
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    
+  }
