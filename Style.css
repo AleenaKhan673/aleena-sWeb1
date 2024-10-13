@@ -12,7 +12,7 @@
       font-weight: 200;
       font-family: "Bodoni Moda SC", serif;
       width: 100%;
-      padding: 10px 0;
+      padding: 1px 0;
     }
 
     header img {
@@ -37,11 +37,12 @@
       min-width: 800px;
       margin: 0 auto;
       overflow-x: hidden;
+      overflow-y: hidden;
     }
 
     main {
       flex: 1;
-      padding: 196px;
+      padding: 140px;
       font-family: serif;
       font-weight: 1000;
       font-size: 100%;
@@ -84,3 +85,5 @@
       background-color: #9f5846;
       font-size: 25px;
     }
+
+    
