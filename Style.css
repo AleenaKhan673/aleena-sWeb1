@@ -167,7 +167,7 @@
 
       footer {
       text-align: center;
-      background: linear-gradient(#d8dbd7, #b0cba3);
+      background: linear-gradient(#a2c197, #9f5846);
       font-weight: 200;
       font-family: "Bodoni Moda SC", serif;
       width:100%;
@@ -181,12 +181,11 @@
 
     .logo img{
       display: block;
-      margin-left: 40px;
-      margin-right: auto;
+      
     }
 
 html, body{
-  background: linear-gradient(#D47861, #B36552, #702918);
+  background: linear-gradient(#d4836e, #B36552, #641c0a);
   margin: 0;
   padding: 0;
   height: 100%;
@@ -201,6 +200,10 @@ html, body{
 main {
   flex:1;
   padding: 196px;
+  font-family: serif;
+  font-weight: 1000;
+  font-size: 100%;
+  text-align: center;
 }
 
 h1 {
@@ -208,6 +211,7 @@ h1 {
   font-weight: 720;
   font-style: normal;
   text-align: center;
+  background-color: #9f5846;
 }
 
 nav{
@@ -234,10 +238,6 @@ nav a, nav span {
 }
 
 nav a:hover{
-  background-color: rgb(222, 221, 221);
+  background-color: #9f5846;
   font-size: 25px;
-}
-
-p {
-
 }
